@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Savory Agency - From Flavor to Fame</title>
+<!-- Font Awesome for better icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<link href="main.css" rel="stylesheet"/>
+<link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48x48.png">
+</head>
+<body>
+<!-- Loading Overlay -->
+<div class="loading-overlay" id="loading">
+<div class="loader"></div>
+</div>
+<!-- Scroll to Top Button -->
+<button class="scroll-to-top" id="scrollToTop">
+<i class="fas fa-arrow-up"></i>
+</button>
+<header id="header">
+<div class="header-container">
+<div class="brand-logo">
+<img alt="Savory Agency Logo" class="logo-image" src="img/SavoryLoGan.png"/>
+</div>
+<div class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+<span></span>
+<span></span>
+<span></span>
+</div>
+<nav id="nav">
+<a href="#beranda">Home</a>
+<a href="#tentang-kami">Tentang Kami</a>
+<a href="#layanan">Layanan</a>
+<a href="#tim">Tim</a>
+<a href="#kontak">Kontak</a>
+<a class="konsultasi-btn" href="#konsultasi">Konsultasi Gratis</a>
+</nav>
+</div>
+</header>
+<section class="hero" id="beranda">
+<div class="hero-shapes"></div>
+<div class="hero-container">
+<div class="hero-content">
+<div class="badge">
+<i class="fas fa-star"></i>
+                    #1 Digital Agency UMKM Indonesia
+                </div>
+<h1>Jasa Branding Digital UMKM Indonesia</h1>
+<p>Kami siap membantu Anda mencapai kesuksesan online dengan strategi digital marketing yang terpercaya dan hasil yang terukur.</p>
+<div class="cta-buttons">
+<a class="cta-button" href="#kontak">
+<i class="fas fa-phone"></i> Kontak Kami Sekarang
+                    </a>
+<a class="cta-button cta-secondary" href="#layanan">
+<i class="fas fa-play"></i> Lihat Layanan
+                    </a>
+</div>
+</div>
+<div class="hero-image">
+<div class="mockup-container">
+<div class="brand-showcase">
+<div class="brand-item">
+<div class="brand-logo">JL</div>
+<h4>Juru Legal</h4>
+<p>Brand Identity</p>
+</div>
+<div class="brand-item">
+<div class="brand-logo" style="background: linear-gradient(135deg, #e17055, #d63031);">SA</div>
+<h4>Savory Agency</h4>
+<p>Digital Agency</p>
+</div>
+<div class="brand-item">
+<div class="brand-logo" style="background: linear-gradient(135deg, #00b894, #00cec9);">BM</div>
+<h4>Bisnis Maju</h4>
+<p>UMKM Solution</p>
+</div>
+<div class="brand-item">
+<div class="brand-logo" style="background: linear-gradient(135deg, #e17055, #f39c12);">TK</div>
+<h4>Toko Keren</h4>
+<p>E-commerce</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- BAGIAN TENTANG KAMI -->
+<section class="tentang-kami" id="tentang-kami">
+<div class="section-container">
+<div class="section-title">
+<h2>Tentang Savory Agency</h2>
+<p class="section-subtitle">Mengenal lebih dekat perjalanan kami dalam membantu UMKM Indonesia meraih kesuksesan digital</p>
+</div>
+<div class="about-content">
+<div class="story-section">
+<div class="story-wrapper">
+<div class="story-image">
+<div class="story-mockup">
+<div class="mockup-screen">
+<div class="screen-content">
+<div class="brand-evolution">
+<div class="brand-before">
+<span>UMKM Tradisional</span>
+<div class="arrow">→</div>
+</div>
+<div class="brand-after">
+<span>Digital Leader</span>
+<i class="fas fa-crown"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="story-content">
+<h3><i class="fas fa-book-open"></i> Cerita Kami</h3>
+<p>Savory Agency lahir dari visi sederhana namun powerful: <strong>membantu setiap UMKM Indonesia merasakan "rasa kesuksesan" di era digital</strong>. Seperti chef yang menciptakan cita rasa istimewa, kami percaya setiap bisnis memiliki keunikan yang perlu "dibumbui" dengan strategi digital yang tepat.</p>
+<p>Berawal dari melihat banyaknya UMKM yang kesulitan beradaptasi dengan teknologi digital, kami hadir dengan solusi yang tidak hanya efektif, namun juga mudah dipahami dan terjangkau. Dengan pengalaman lebih dari 5 tahun di industri digital, kami telah membantu <strong>200+ UMKM</strong> berkembang pesat.</p>
+<div class="story-stats">
+<div class="stat-item">
+<div class="stat-number">200+</div>
+<div class="stat-label">UMKM Terbantu</div>
+</div>
+<div class="stat-item">
+<div class="stat-number">5+</div>
+<div class="stat-label">Tahun Pengalaman</div>
+</div>
+<div class="stat-item">
+<div class="stat-number">98%</div>
+<div class="stat-label">Tingkat Kepuasan</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="vision-mission-section">
+<div class="vm-container">
+<div class="vm-card vision-card">
+<div class="vm-icon">
+<i class="fas fa-eye"></i>
+</div>
+<h3>Visi Kami</h3>
+<p>Menjadi digital agency #1 pilihan UMKM Indonesia yang dipercaya menghadirkan solusi inovatif, terjangkau, dan hasil yang terukur untuk membangun ekosistem bisnis digital yang berkelanjutan.</p>
+</div>
+<div class="vm-card mission-card">
+<div class="vm-icon">
+<i class="fas fa-target"></i>
+</div>
+<h3>Misi Kami</h3>
+<ul>
+<li><i class="fas fa-check"></i> Memberikan solusi digital marketing yang mudah diakses untuk semua kalangan UMKM</li>
+<li><i class="fas fa-check"></i> Menciptakan strategi pemasaran yang menghasilkan ROI maksimal dengan budget optimal</li>
+<li><i class="fas fa-check"></i> Membangun komunitas UMKM yang saling mendukung dalam transformasi digital</li>
+<li><i class="fas fa-check"></i> Menghadirkan inovasi teknologi terdepan yang sesuai dengan kebutuhan lokal</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="values-section">
+<h3><i class="fas fa-gem"></i> Nilai-Nilai Yang Kami Pegang</h3>
+<div class="values-grid">
+<div class="value-card">
+<div class="value-icon">
+<i class="fas fa-handshake"></i>
+</div>
+<h4>Transparansi</h4>
+<p>Setiap proses, biaya, dan hasil kerja kami selalu terbuka dan jelas. Tidak ada biaya tersembunyi atau janji-janji kosong.</p>
+</div>
+<div class="value-card">
+<div class="value-icon">
+<i class="fas fa-coins"></i>
+</div>
+<h4>Harga Terjangkau</h4>
+<p>Solusi berkualitas premium dengan harga yang ramah kantong UMKM. Investasi yang sepadan dengan hasil yang diperoleh.</p>
+</div>
+<div class="value-card">
+<div class="value-icon">
+<i class="fas fa-chart-line"></i>
+</div>
+<h4>Fokus Hasil</h4>
+<p>Setiap strategi yang kami buat selalu berorientasi pada hasil nyata dan terukur, bukan sekedar tampilan yang menarik.</p>
+</div>
+<div class="value-card">
+<div class="value-icon">
+<i class="fas fa-heart"></i>
+</div>
+<h4>Kepedulian</h4>
+<p>Kami benar-benar peduli dengan pertumbuhan bisnis klien dan siap mendampingi dalam setiap langkah transformasi digital.</p>
+</div>
+<div class="value-card">
+<div class="value-icon">
+<i class="fas fa-rocket"></i>
+</div>
+<h4>Inovasi</h4>
+<p>Selalu menggunakan teknologi terdepan dan strategi terbaru untuk memberikan competitive advantage kepada klien.</p>
+</div>
+<div class="value-card">
+<div class="value-icon">
+<i class="fas fa-users"></i>
+</div>
+<h4>Kemitraan</h4>
+<p>Kami tidak hanya sebagai vendor, tetapi sebagai partner bisnis yang berkomitmen untuk berkembang bersama klien.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- LAYANAN SECTION -->
+<section class="layanan" id="layanan">
+<div class="section-container">
+<div class="section-title">
+<h2>Layanan Unggulan Kami</h2>
+<p class="section-subtitle">Solusi lengkap untuk transformasi digital UMKM Indonesia dengan hasil yang terukur dan ROI maksimal</p>
+</div>
+<div class="services-grid">
+<div class="service-card" data-service="branding">
+<div class="service-icon">
+<i class="fas fa-palette"></i>
+</div>
+<h3>Branding &amp; Desain</h3>
+<p>Ciptakan identitas brand yang kuat dan memorable untuk bisnis Anda</p>
+<ul class="service-features">
+<li><i class="fas fa-check"></i> Logo profesional &amp; brandmark</li>
+<li><i class="fas fa-check"></i> Desain kemasan produk</li>
+<li><i class="fas fa-check"></i> Identitas visual lengkap</li>
+<li><i class="fas fa-check"></i> Brand guidelines</li>
+<li><i class="fas fa-check"></i> Stationery design</li>
+</ul>
+<div class="service-price">
+<span class="price-from">Mulai dari</span>
+<span class="price-amount">Rp 2,5 juta</span>
+</div>
+<button class="service-btn" onclick="redirectToContact('branding')">
+<i class="fas fa-rocket"></i> Pesan Sekarang
+                    </button>
+</div>
+<div class="service-card" data-service="digital-marketing">
+<div class="service-icon">
+<i class="fas fa-bullhorn"></i>
+</div>
+<h3>Digital Marketing</h3>
+<p>Tingkatkan penjualan dengan strategi pemasaran digital yang tepat sasaran</p>
+<ul class="service-features">
+<li><i class="fas fa-check"></i> Meta Ads (Facebook &amp; Instagram)</li>
+<li><i class="fas fa-check"></i> Google Ads &amp; Shopping Ads</li>
+<li><i class="fas fa-check"></i> SEO optimasi website</li>
+<li><i class="fas fa-check"></i> Content marketing strategy</li>
+<li><i class="fas fa-check"></i> Analytics &amp; reporting</li>
+</ul>
+<div class="service-price">
+<span class="price-from">Mulai dari</span>
+<span class="price-amount">Rp 3 juta/bulan</span>
+</div>
+<button class="service-btn" onclick="redirectToContact('digital-marketing')">
+<i class="fas fa-rocket"></i> Pesan Sekarang
+                    </button>
+</div>
+<div class="service-card" data-service="social-media">
+<div class="service-icon">
+<i class="fas fa-share-alt"></i>
+</div>
+<h3>Social Media Management</h3>
+<p>Kelola media sosial profesional untuk engagement dan penjualan maksimal</p>
+<ul class="service-features">
+<li><i class="fas fa-check"></i> Konten Instagram kreatif</li>
+<li><i class="fas fa-check"></i> TikTok viral content</li>
+<li><i class="fas fa-check"></i> Facebook business management</li>
+<li><i class="fas fa-check"></i> Content planning &amp; scheduling</li>
+<li><i class="fas fa-check"></i> Community management</li>
+</ul>
+<div class="service-price">
+<span class="price-from">Mulai dari</span>
+<span class="price-amount">Rp 2 juta/bulan</span>
+</div>
+<button class="service-btn" onclick="redirectToContact('social-media')">
+<i class="fas fa-rocket"></i> Pesan Sekarang
+                    </button>
+</div>
+<div class="service-card" data-service="website">
+<div class="service-icon">
+<i class="fas fa-globe"></i>
+</div>
+<h3>Website Development</h3>
+<p>Website profesional yang convert visitor menjadi customer</p>
+<ul class="service-features">
+<li><i class="fas fa-check"></i> Landing page optimasi konversi</li>
+<li><i class="fas fa-check"></i> E-commerce lengkap</li>
+<li><i class="fas fa-check"></i> Mobile responsive design</li>
+<li><i class="fas fa-check"></i> SEO friendly structure</li>
+<li><i class="fas fa-check"></i> Integrasi payment gateway</li>
+</ul>
+<div class="service-price">
+<span class="price-from">Mulai dari</span>
+<span class="price-amount">Rp 5 juta</span>
+</div>
+<button class="service-btn" onclick="redirectToContact('website')">
+<i class="fas fa-rocket"></i> Pesan Sekarang
+                    </button>
+</div>
+<div class="service-card" data-service="foto-video">
+<div class="service-icon">
+<i class="fas fa-camera"></i>
+</div>
+<h3>Foto &amp; Video Produk</h3>
+<p>Konten visual profesional yang meningkatkan daya tarik produk Anda</p>
+<ul class="service-features">
+<li><i class="fas fa-check"></i> Foto produk profesional</li>
+<li><i class="fas fa-check"></i> Video promosi &amp; tutorial</li>
+<li><i class="fas fa-check"></i> Content untuk social media</li>
+<li><i class="fas fa-check"></i> 360° product photography</li>
+<li><i class="fas fa-check"></i> Lifestyle &amp; mood photography</li>
+</ul>
+<div class="service-price">
+<span class="price-from">Mulai dari</span>
+<span class="price-amount">Rp 1,5 juta</span>
+</div>
+<button class="service-btn" onclick="redirectToContact('foto-video')">
+<i class="fas fa-rocket"></i> Pesan Sekarang
+                    </button>
+</div>
+<div class="service-card featured" data-service="paket-lengkap">
+<div class="featured-badge">
+<i class="fas fa-star"></i> TERPOPULER
+                    </div>
+<div class="service-icon">
+<i class="fas fa-gem"></i>
+</div>
+<h3>Paket Lengkap UMKM</h3>
+<p>Solusi all-in-one untuk transformasi digital bisnis yang sempurna</p>
+<ul class="service-features">
+<li><i class="fas fa-check"></i> Semua layanan di atas</li>
+<li><i class="fas fa-check"></i> Konsultasi bisnis unlimited</li>
+<li><i class="fas fa-check"></i> Priority support 24/7</li>
+<li><i class="fas fa-check"></i> Monthly performance report</li>
+<li><i class="fas fa-check"></i> Free maintenance 1 tahun</li>
+</ul>
+<div class="service-price">
+<span class="price-from">Hemat 40% - Mulai dari</span>
+<span class="price-amount">Rp 8 juta</span>
+<span class="price-note">*Harga normal Rp 13,5 juta</span>
+</div>
+<button class="service-btn featured-btn" onclick="redirectToContact('paket-lengkap')">
+<i class="fas fa-crown"></i> Ambil Paket Ini
+                    </button>
+</div>
+</div>
+<div class="services-cta">
+<div class="cta-content">
+<h3><i class="fas fa-gift"></i> Dapatkan Konsultasi GRATIS!</h3>
+<p>Diskusikan kebutuhan bisnis Anda dengan expert kami. Tanpa biaya, tanpa komitmen.</p>
+<a class="cta-button" href="#kontak">
+<i class="fas fa-comments"></i> Konsultasi Gratis Sekarang
+                    </a>
+</div>
+</div>
+</div>
+</section>
+<!-- TIM SECTION - IMPROVED -->
+<section class="team" id="tim">
+<div class="section-container">
+<div class="section-title">
+<h2>Tim Profesional Kami</h2>
+<p class="section-subtitle">Bertemu dengan para ahli berpengalaman yang siap membantu mengembangkan dan mewujudkan potensi digital bisnis Anda</p>
+</div>
+<div class="team-grid">
+<div class="team-member">
+<div class="member-photo">
+<img alt="Rahmat Fadhila" src="img/team/andi-santoso.jpg"/>
+</div>
+<div class="member-info">
+<h3>Rahmat Fadhila</h3>
+<div class="member-position">CEO &amp; Founder</div>
+<p class="member-description">Pemimpin visioner dengan pengalaman 8+ tahun di industri digital marketing. Ahli dalam strategi bisnis dan transformasi digital UMKM Indonesia.</p>
+<div class="member-skills">
+<span class="skill-tag"><i class="fas fa-lightbulb"></i> Brand Strategy</span>
+<span class="skill-tag"><i class="fas fa-paint-brush"></i> Creative Direction</span>
+<span class="skill-tag"><i class="fas fa-rocket"></i> Business Development</span>
+</div>
+<div class="member-social">
+<a class="social-link" href="#"><i class="fab fa-linkedin"></i></a>
+<a class="social-link" href="#"><i class="fab fa-instagram"></i></a>
+<a class="social-link" href="#"><i class="fas fa-envelope"></i></a>
+</div>
+</div>
+</div>
+<div class="team-member">
+<div class="member-photo">
+<img alt="Muammar" src="img/team/siti-rahmawati.jpg"/>
+</div>
+<div class="member-info">
+<h3>Muammar</h3>
+<div class="member-position">Creative Director</div>
+<p class="member-description">Designer kreatif dengan passion untuk menciptakan identitas visual yang memorable. Spesialis dalam branding dan UI/UX design dengan pengalaman 6+ tahun.</p>
+<div class="member-skills">
+<span class="skill-tag"><i class="fas fa-desktop"></i> UI/UX Design</span>
+<span class="skill-tag"><i class="fas fa-trademark"></i> Logo Design</span>
+<span class="skill-tag"><i class="fas fa-eye"></i> Visual Identity</span>
+</div>
+<div class="member-social">
+<a class="social-link" href="#"><i class="fab fa-linkedin"></i></a>
+<a class="social-link" href="#"><i class="fab fa-behance"></i></a>
+<a class="social-link" href="#"><i class="fab fa-dribbble"></i></a>
+</div>
+</div>
+</div>
+<div class="team-member">
+<div class="member-photo">
+<img alt="Muh. Arifki Dwi Anugrah" src="img/team/budi-prasetyo.jpg"/>
+</div>
+<div class="member-info">
+<h3>Muh. Arifki Dwi Anugrah</h3>
+<div class="member-position">Digital Marketing Specialist</div>
+<p class="member-description">Ahli digital marketing dengan rekam jejak mengelola campaign untuk 100+ UMKM. Spesialis dalam Meta Ads, Google Ads, dan SEO optimization.</p>
+<div class="member-skills">
+<span class="skill-tag"><i class="fas fa-search"></i> SEO</span>
+<span class="skill-tag"><i class="fas fa-share-alt"></i> Social Media</span>
+<span class="skill-tag"><i class="fab fa-google"></i> Google Ads</span>
+</div>
+<div class="member-social">
+<a class="social-link" href="#"><i class="fab fa-linkedin"></i></a>
+<a class="social-link" href="#"><i class="fab fa-twitter"></i></a>
+<a class="social-link" href="#"><i class="fab fa-instagram"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="contact" id="kontak">
+<div class="section-container">
+<div class="section-title">
+<h2>Hubungi Kami</h2>
+<p class="section-subtitle">Siap membantu mewujudkan impian digital bisnis Anda. Konsultasi gratis untuk strategi terbaik!</p>
+</div>
+<div class="contact-wrapper"><div class="contact-info-section">
+<h3>Mari Diskusikan Proyek Anda</h3>
+<p>Kami siap mendengarkan kebutuhan bisnis Anda dan memberikan solusi digital marketing terbaik yang sesuai dengan budget dan target yang diinginkan.</p>
+<div class="contact-details">
+<div class="contact-item">
+<div class="contact-icon">
+<i class="fas fa-envelope"></i>
+</div>
+<div>
+<h4>Email Kami</h4>
+<p>hello@savoryagency.com</p>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-icon">
+<i class="fab fa-whatsapp"></i>
+</div>
+<div>
+<h4>WhatsApp</h4>
+<p>+62 812-3456-7890</p>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-icon">
+<i class="fas fa-clock"></i>
+</div>
+<div>
+<h4>Jam Operasional</h4>
+<p>Senin - Sabtu, 09:00 - 18:00 WIB</p>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-icon">
+<i class="fas fa-map-marker-alt"></i>
+</div>
+<div>
+<h4>Lokasi</h4>
+<p>Jakarta, Indonesia</p>
+</div>
+</div>
+</div>
+</div><form class="contact-form" id="contactForm">
+<h3>Kirim Pesan Kepada Kami</h3>
+<div class="form-row">
+<div class="form-group">
+<label for="nama"><i class="fas fa-user"></i> Nama Lengkap</label>
+<input id="nama" name="nama" placeholder="Masukkan nama lengkap Anda" required="" type="text"/>
+</div>
+<div class="form-group">
+<label for="email"><i class="fas fa-envelope"></i> Email</label>
+<input id="email" name="email" placeholder="contoh@email.com" required="" type="email"/>
+</div>
+</div>
+<div class="form-row">
+<div class="form-group">
+<label for="phone"><i class="fas fa-phone"></i> No. Telepon</label>
+<input id="phone" name="phone" placeholder="+62 812-3456-7890" required="" type="tel"/>
+</div>
+<div class="form-group">
+<label for="bisnis"><i class="fas fa-briefcase"></i> Jenis Bisnis</label>
+<select id="bisnis" name="bisnis" required="">
+<option value="">Pilih jenis bisnis</option>
+<option value="kuliner">Kuliner &amp; F&amp;B</option>
+<option value="fashion">Fashion &amp; Lifestyle</option>
+<option value="jasa">Jasa Profesional</option>
+<option value="retail">Retail &amp; E-commerce</option>
+<option value="teknologi">Teknologi</option>
+<option value="lainnya">Lainnya</option>
+</select>
+</div>
+</div>
+<div class="form-group">
+<label for="layanan"><i class="fas fa-cogs"></i> Layanan yang Dibutuhkan</label>
+<select id="layanan" name="layanan" required="">
+<option value="">Pilih layanan</option>
+<option value="branding">Branding &amp; Desain</option>
+<option value="digital-marketing">Digital Marketing</option>
+<option value="social-media">Social Media Management</option>
+<option value="website">Website Development</option>
+<option value="foto-video">Foto &amp; Video Produk</option>
+<option value="paket-lengkap">Paket Lengkap UMKM</option>
+</select>
+</div>
+<div class="form-group">
+<label for="pesan"><i class="fas fa-comment"></i> Pesan &amp; Kebutuhan Detail</label>
+<textarea id="pesan" name="pesan" placeholder="Ceritakan tentang bisnis Anda, target yang ingin dicapai, dan layanan spesifik yang dibutuhkan..." required="" rows="5"></textarea>
+</div>
+<button class="submit-btn" type="submit">
+<i class="fas fa-paper-plane"></i> Kirim Pesan Sekarang
+                    </button>
+</form></div>
+</div>
+</section>
+<footer>
+<div class="footer-content">
+<div class="footer-brand">
+<h3>Savory Agency</h3>
+<p>Kami adalah digital agency terpercaya yang fokus membantu UMKM Indonesia berkembang melalui solusi digital marketing yang inovatif dan hasil yang terukur.</p>
+<div class="social-links">
+<a aria-label="Twitter" href="#"><i class="fab fa-twitter"></i></a>
+<a aria-label="LinkedIn" href="#"><i class="fab fa-linkedin-in"></i></a>
+<a aria-label="YouTube" href="#"><i class="fab fa-youtube"></i></a>
+</div>
+</div>
+<div class="footer-section">
+<h4>Layanan</h4>
+<ul>
+<li><a href="#"><i class="fas fa-palette"></i> Branding &amp; Desain</a></li>
+<li><a href="#"><i class="fas fa-bullhorn"></i> Digital Marketing</a></li>
+<li><a href="#"><i class="fas fa-share-alt"></i> Social Media Management</a></li>
+<li><a href="#"><i class="fas fa-globe"></i> Website Development</a></li>
+<li><a href="#"><i class="fas fa-camera"></i> Foto &amp; Video Produk</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h4>Perusahaan</h4>
+<ul>
+<li><a href="#"><i class="fas fa-info-circle"></i> Tentang Kami</a></li>
+<li><a href="#"><i class="fas fa-users"></i> Tim</a></li>
+<li><a href="#"><i class="fas fa-briefcase"></i> Karir</a></li>
+<li><a href="#"><i class="fas fa-newspaper"></i> Blog</a></li>
+<li><a href="#"><i class="fas fa-phone"></i> Kontak</a></li>
+</ul>
+</div>
+<div class="newsletter">
+<h4>Newsletter</h4>
+<p>Dapatkan tips digital marketing terbaru dan update dari Savory Agency</p>
+<div class="newsletter-form">
+<input placeholder="Masukkan email Anda" type="email"/>
+<button type="submit">
+<i class="fas fa-arrow-right"></i>
+</button>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+<div class="footer-bottom-content">
+<p>© 2025 Savory Agency - From Flavor to Fame. Semua Hak Dilindungi.</p>
+<div class="footer-links">
+<a href="#">Kebijakan Privasi</a>
+<a href="#">Syarat &amp; Ketentuan</a>
+<a href="#">Sitemap</a>
+</div>
+</div>
+</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
