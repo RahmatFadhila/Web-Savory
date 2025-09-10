@@ -1585,3 +1585,13 @@ header .brand-logo,
 header .brand-logo .logo-image {
     background: transparent !important;
 }
+/* ==== FIX V2: Pastikan logo di kiri dengan jarak aman ==== */
+@media screen and (max-width: 768px) {
+    .header-container {
+        margin: 0 !important;
+        padding-left: 15px !important; /* jarak aman biar nggak mentok */
+    }
+    header .logo-image {
+        margin-right: auto !important; /* pastiin tetap di kiri */
+    }
+}
