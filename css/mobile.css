@@ -36,6 +36,9 @@
     .logo-image {
         height: 35px !important;
         width: auto;
+        display: block;
+        background: transparent !important; /* HILANGKAN KOTAK UNGU */
+        border-radius: 0 !important; /* pastikan tidak ada rounded kotak */
     }
 
     .mobile-menu-toggle {
