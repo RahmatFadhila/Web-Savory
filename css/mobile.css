@@ -53,9 +53,9 @@ header .brand-logo {
 }
 
 header .logo-image {
-    height: 90px;
+    height: 95px;
     width: auto;
-    margin-left: -20px;
+    margin-left: 15px;
     object-fit: contain;
     transition: all 0.3s ease;
     filter: drop-shadow(0 2px 8px rgba(0,0,0,0.1));
