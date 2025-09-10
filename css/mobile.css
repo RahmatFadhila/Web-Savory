@@ -15,7 +15,7 @@
 
     /* ================= HEADER MOBILE ================= */
     header {
-        height: 100px;
+        height: 60px;
         padding: 0 15px;
         background: rgba(255, 255, 255, 0.95);
         backdrop-filter: blur(20px);
@@ -34,7 +34,7 @@
     }
 
     .logo-image {
-        height: 100px !important;
+        height: 35px !important;
         width: auto;
     }
 
@@ -43,7 +43,7 @@
         flex-direction: column;
         justify-content: center;
         width: 35px;
-        height: 100px;
+        height: 35px;
         gap: 3px;
         cursor: pointer;
         z-index: 1001;
@@ -51,7 +51,7 @@
 
     .mobile-menu-toggle span {
         width: 20px;
-        height: 100px;
+        height: 2px;
         background: #333;
         border-radius: 1px;
         transition: all 0.3s ease;
@@ -226,7 +226,7 @@
 
     .brand-logo {
         width: 35px;
-        height: 100px;
+        height: 35px;
         font-size: 0.9rem;
         font-weight: 700;
         color: white;
@@ -321,7 +321,7 @@
         background: rgba(255,255,255,0.95);
         border-radius: 8px;
         padding: 12px;
-        min-height: 100px;
+        min-height: 80px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -429,7 +429,7 @@
 
     .vm-icon {
         width: 40px;
-        height: 100px;
+        height: 40px;
         font-size: 1.2rem;
         margin: 0 auto 12px;
         display: flex;
@@ -517,7 +517,7 @@
 
     .value-icon {
         width: 35px;
-        height: 100px;
+        height: 35px;
         font-size: 1rem;
         margin: 0 auto 10px;
         display: flex;
@@ -552,9 +552,7 @@
         color: white;
     }
 
-    .services-grid {
-        display: grid !important;
-        grid-template-columns: repeat(3, 1fr) !important;
+    .services-grid { display: grid !important; grid-template-columns: 1fr !important; gap: 15px !important; margin-bottom: 25px;
         gap: 12px !important;
         margin-bottom: 25px;
     }
@@ -569,7 +567,7 @@
         display: flex !important;
         flex-direction: column !important;
         justify-content: space-between !important;
-        min-height: 100px;
+        min-height: 300px;
     }
 
     .service-card.featured {
@@ -598,7 +596,7 @@
 
     .service-icon {
         width: 40px !important;
-        height: 100px !important;
+        height: 40px !important;
         font-size: 1.1rem !important;
         margin: 0 auto 12px !important;
         display: flex;
@@ -706,7 +704,8 @@
     }
 
     /* ================= TEAM MOBILE - HORIZONTAL CARDS ================= */
-    .team { background: #ffffff;
+    .team {
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     }
 
     .team-grid {
@@ -727,8 +726,8 @@
     }
 
     .member-photo {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         border-radius: 12px;
         overflow: hidden;
         box-shadow: 0 5px 15px rgba(0,0,0,0.2);
@@ -808,7 +807,7 @@
         align-items: center;
         justify-content: center;
         width: 30px;
-        height: 100px;
+        height: 30px;
         background: linear-gradient(135deg, #f8f9fa, #e9ecef);
         color: #666;
         border-radius: 8px;
@@ -879,7 +878,7 @@
 
     .contact-icon {
         width: 35px;
-        height: 100px;
+        height: 35px;
         font-size: 1rem;
         display: flex;
         align-items: center;
@@ -953,7 +952,7 @@
     }
 
     .form-group textarea {
-        min-height: 100px;
+        min-height: 80px;
         resize: vertical;
     }
 
@@ -1013,7 +1012,7 @@
 
     .social-links a {
         width: 35px;
-        height: 100px;
+        height: 35px;
         background: rgba(255,255,255,0.1);
         color: white;
         border-radius: 8px;
@@ -1116,7 +1115,7 @@
     .scroll-to-top {
         position: fixed;
         width: 45px;
-        height: 100px;
+        height: 45px;
         bottom: 20px;
         right: 20px;
         background: linear-gradient(135deg, #667eea, #764ba2);
@@ -1164,7 +1163,7 @@
 
     .loader {
         width: 40px;
-        height: 100px;
+        height: 40px;
         border: 3px solid rgba(102, 126, 234, 0.2);
         border-left: 3px solid #667eea;
         border-radius: 50%;
@@ -1271,19 +1270,18 @@
     }
 
     /* Services grid remains 3 columns but smaller */
-    .services-grid {
-        grid-template-columns: repeat(3, 1fr) !important;
+    .services-grid { display: grid !important; grid-template-columns: 1fr !important; gap: 15px !important; margin-bottom: 25px;
         gap: 10px !important;
     }
 
     .service-card {
         padding: 12px 8px !important;
-        min-height: 100px !important;
+        min-height: 280px !important;
     }
 
     .service-icon {
         width: 35px !important;
-        height: 100px !important;
+        height: 35px !important;
         font-size: 1rem !important;
     }
 
@@ -1326,8 +1324,8 @@
     }
 
     .member-photo {
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
     }
 
     .footer-content {
@@ -1370,19 +1368,18 @@
     }
 
     /* Services switch to 2 columns on extra small screens */
-    .services-grid {
-        grid-template-columns: repeat(2, 1fr) !important;
+    .services-grid { display: grid !important; grid-template-columns: 1fr !important; gap: 15px !important; margin-bottom: 25px;
         gap: 8px !important;
     }
 
     .service-card {
         padding: 10px 6px !important;
-        min-height: 100px !important;
+        min-height: 260px !important;
     }
 
     .service-icon {
         width: 30px !important;
-        height: 100px !important;
+        height: 30px !important;
         font-size: 0.9rem !important;
     }
 
@@ -1410,13 +1407,13 @@
     }
 
     .member-photo {
-        width: 100px;
-        height: 100px;
+        width: 60px;
+        height: 60px;
     }
 }
 
 /* ================= LANDSCAPE MOBILE ================= */
-@media screen and (max-height: 100px) and (orientation: landscape) {
+@media screen and (max-height: 500px) and (orientation: landscape) {
     .hero {
         min-height: auto;
         padding: 70px 0 30px;
@@ -1472,7 +1469,7 @@
     .service-btn,
     .submit-btn,
     .social-link {
-        min-height: 100px;
+        min-height: 44px;
         min-width: 44px;
     }
 
@@ -1517,8 +1514,7 @@
         justify-content: flex-start;
     }
 
-    .services-grid {
-        grid-template-columns: repeat(3, 1fr) !important;
+    .services-grid { display: grid !important; grid-template-columns: 1fr !important; gap: 15px !important; margin-bottom: 25px;
     }
 
     .service-card.featured {
@@ -1544,35 +1540,10 @@
     }
 }
 
-/* ================= TEAM MOBILE FIX ================= */
-@media screen and (max-width: 768px) {
-    .team {
-        background: #ffffff !important;
-        color: #333 !important;
-    }
-    .team .section-title h2,
-    .team .section-subtitle {
-        color: #333 !important;
-    }
-    .team-member {
-        padding: 25px 18px !important;
-    }
-    .member-photo {
-        width: 100px !important;
-        height: 100px !important;
-    }
-    .member-info h3 {
-        color: #222 !important;
-        font-size: 1.2rem !important;
-    }
-    .member-position {
-        background: linear-gradient(135deg, #667eea, #764ba2);
-        color: #fff !important;
-        font-size: 0.8rem !important;
-    }
-    .member-description {
-        color: #444 !important;
-        font-size: 0.9rem !important;
-        line-height: 1.5;
+/* ================= TABLET SERVICES GRID FIX ================= */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 15px !important;
     }
 }
