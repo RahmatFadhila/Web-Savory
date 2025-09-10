@@ -55,8 +55,6 @@ header .brand-logo {
 header .logo-image {
     height: 95px;
     width: auto;
-    margin-right: auto;
-    margin-left: 15px;
     object-fit: contain;
     transition: all 0.3s ease;
     filter: drop-shadow(0 2px 8px rgba(0,0,0,0.1));
@@ -1585,13 +1583,16 @@ header .brand-logo,
 header .brand-logo .logo-image {
     background: transparent !important;
 }
-/* ==== FIX V2: Pastikan logo di kiri dengan jarak aman ==== */
 @media screen and (max-width: 768px) {
     .header-container {
+        max-width: 100% !important;   /* biar full, nggak center */
         margin: 0 !important;
-        padding-left: 15px !important; /* jarak aman biar nggak mentok */
+        padding-left: 15px !important;
+        justify-content: flex-start !important; /* isi header mulai dari kiri */
     }
+
     header .logo-image {
-        margin-right: auto !important; /* pastiin tetap di kiri */
+        margin: 0 !important;         /* reset margin */
+        height: 120px;                /* bisa atur sesuai selera */
     }
 }
