@@ -1575,3 +1575,11 @@ header .logo-image:hover {
         gap: 15px !important;
     }
 }
+
+
+
+/* ==== FIX: Hilangkan background ungu di belakang logo header ==== */
+header .brand-logo,
+header .brand-logo .logo-image {
+    background: transparent !important;
+}
