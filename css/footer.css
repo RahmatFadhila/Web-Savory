@@ -298,7 +298,6 @@ footer::before {
         margin: 0 20px;
     }
 
-    /* mungkin ini untuk .stats-wrapper ? */
     .stats-wrapper {
         gap: 15px;
         flex-wrap: wrap;
@@ -331,7 +330,9 @@ footer::before {
         grid-template-columns: 1fr 1fr;
         gap: 40px;
     }
+}
 
+@media (max-width: 768px) {
     .footer-content {
         grid-template-columns: 1fr;
         gap: 40px;
