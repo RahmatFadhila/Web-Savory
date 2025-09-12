@@ -1485,29 +1485,29 @@
         grid-template-columns: 1fr !important;
     }
 
-    /* Team member for extra small screens */
+    /* Team member for extra small screens - performance optimized */
     .member-photo {
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
     }
 
     .member-info h3 {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .member-description {
-        font-size: 0.85rem;
+        font-size: 0.8rem;
     }
 
     .skill-tag {
-        font-size: 0.7rem;
-        padding: 6px 10px;
+        font-size: 0.65rem;
+        padding: 5px 8px;
     }
 
     .social-link {
-        width: 35px;
-        height: 35px;
-        font-size: 1rem;
+        width: 32px;
+        height: 32px;
+        font-size: 0.9rem;
     }
 
     /* Services switch to smaller sizing on extra small screens */
