@@ -509,7 +509,56 @@ if (newsletterForm) {
     });
 }
 
-// =========================== ANIMATIONS - MOBILE OPTIMIZED ===========================
+// =========================== STATISTICS COUNTER ANIMATION - OPTIMIZED ===========================
+
+// Optimized counter animation - tetap smooth tapi ringan
+const animateNumbers = () => {
+    const stats = document.querySelectorAll('.stat-number');
+    stats.forEach(stat => {
+        const originalText = stat.textContent;
+        const target = parseInt(originalText.replace(/[^0-9]/g, ''));
+        const suffix = originalText.replace(/[0-9]/g, '');
+        
+        if (target <= 0) return;
+        
+        let current = 0;
+        const increment = target / 30; // Reduced iterations untuk performa
+        const duration = 1500; // Total duration
+        const stepTime = duration / 30;
+        
+        const timer = setInterval(() => {
+            current += increment;
+            if (current >= target) {
+                stat.textContent = target + suffix;
+                clearInterval(timer);
+            } else {
+                stat.textContent = Math.floor(current) + suffix;
+            }
+        }, stepTime);
+    });
+};
+
+// Trigger counter animation when stats section is visible - Optimized observer
+const statsObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // Delay sedikit untuk smooth experience
+            setTimeout(() => {
+                animateNumbers();
+            }, 200);
+            statsObserver.unobserve(entry.target); // Hanya jalankan sekali
+        }
+    });
+}, {
+    threshold: 0.5,
+    rootMargin: '0px 0px -50px 0px'
+});
+
+// Start observing stats section
+const statsSection = document.querySelector('.story-stats');
+if (statsSection) {
+    statsObserver.observe(statsSection);
+}
 
 // Simplified Intersection Observer for mobile
 const observerOptions = {
